@@ -1,0 +1,29 @@
+{
+  "name": "shoe-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "aos": "^2.3.4",
+    "blueimp-file-upload": "^10.31.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass sass/login-logout.scss css/login-logout.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangnlh/ShoeStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangnlh/ShoeStore/issues"
+  },
+  "homepage": "https://github.com/sangnlh/ShoeStore#readme"
+}

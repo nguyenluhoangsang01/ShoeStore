@@ -1,0 +1,108 @@
+.del {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cart-shopping form input {
+  margin: 1rem;
+  margin-left: auto;
+  font-size: 1.4rem;
+}
+
+.cart-shopping {
+  width: 50%;
+  position: fixed;
+  top: 12rem;
+  right: 6rem;
+  z-index: 777987987987987968;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  border: 0.5rem solid var(--logo-color);
+  background-color: var(--white-color);
+}
+
+.cart-shopping form div {
+  position: relative;
+}
+
+.cart-shopping form div input {
+  padding-right: 5rem;
+}
+
+.cart-shopping form div input:hover {
+  transform: scale(1);
+}
+
+.cart-shopping form div input:hover ~ i {
+  right: 2rem;
+}
+
+.cart-shopping form div i {
+  position: absolute;
+  font-size: 2rem;
+  right: 3rem;
+  bottom: 1rem;
+  color: var(--white-color);
+  transition: all 0.3s;
+}
+
+.close {
+  position: absolute;
+  right: -1.5rem;
+  top: -1.5rem;
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+table {
+  font-size: 1.6rem;
+}
+
+.del:hover {
+  transform: scale(1.1);
+  color: var(--primary-color);
+}
+
+.del:active {
+  transform: scale(0.9);
+  color: var(--error-color);
+}
+
+th {
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.4;
+  cursor: text;
+}
+
+td {
+  padding: 0 1rem;
+  height: 88px;
+}
+
+td img {
+  width: 100%;
+  height: 100%;
+}
+
+.tac {
+  text-align: center;
+}
+
+.csrt {
+  cursor: text;
+}

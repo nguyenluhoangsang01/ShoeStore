@@ -1,0 +1,40 @@
+.introduce .heading {
+  text-transform: uppercase;
+}
+
+.contact-form__group > label {
+  font-size: 1.8rem;
+  display: block;
+}
+
+.contact-form__group > label + br + input {
+  height: 40px;
+  padding: 0 2rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: all 0.3s;
+  font-size: 1.7rem;
+}
+
+.contact-form__group > label + br + input:focus {
+  border-bottom-color: var(--primary-color);
+}
+
+.contact-form__group > label + br + textarea {
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+  outline: none;
+  transition: all 0.3s;
+  font-size: 1.7rem;
+  width: 456px;
+  height: 232px;
+  border: 2px solid var(--text-color);
+}
+
+.contact-form__group > label + br + textarea:focus {
+  border: 2px solid var(--primary-color);
+}

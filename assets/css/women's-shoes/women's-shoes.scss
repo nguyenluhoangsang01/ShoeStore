@@ -1,0 +1,24 @@
+.category-archives {
+	font-size: 3rem;
+	font-weight: 700;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+
+	span {
+		text-align: center;
+		display: block;
+		text-transform: uppercase;
+	}
+}
+
+.col + .col {
+	margin-bottom: 4rem;
+}
+
+.product__name {
+	text-transform: uppercase;
+}
+
+.review-form-heading {
+	line-height: 1.4;
+}

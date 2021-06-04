@@ -1,0 +1,340 @@
+.admin {
+  width: 100%;
+  padding: 5rem;
+  border: 0.5rem solid var(--primary-color);
+  margin-top: 5rem;
+
+  .admin-heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    transition: all 0.3s;
+    cursor: text;
+    display: inline-block;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  .admin-description-group,
+  .admin-group {
+    position: relative;
+    padding-right: 15rem;
+    margin-bottom: 7rem;
+
+    label {
+      transition: all 0.3s;
+      color: var(--primary-color);
+      font-size: 2rem;
+      font-weight: 500;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+
+      &:hover {
+        opacity: 1;
+        color: var(--primary-color);
+      }
+    }
+
+    input {
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      outline: none;
+      height: 5rem;
+      padding: 0 2rem;
+      font-size: 1.7rem;
+
+      &:focus {
+        border-bottom-color: var(--primary-color);
+      }
+    }
+
+    textarea {
+      outline: none;
+      padding: 2rem;
+      font-size: 1.7rem;
+      width: 100%;
+    }
+
+    #title-product {
+      width: 80%;
+      display: flex;
+      justify-content: flex-end;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    #sale-product {
+      margin-left: 18.2rem;
+    }
+
+    #cost-label {
+      left: 51.2rem;
+    }
+
+    #sale-product,
+    #cost-product {
+      width: 31.7%;
+    }
+
+    #introduce-contact-info-product,
+    #introduce-howtobuy-product,
+    #introduce-commitment-product,
+    #introduce-trademark-product,
+    #introduce-product {
+      margin-right: 0;
+      margin-left: auto;
+      height: 20rem;
+      width: 80%;
+
+      &:focus {
+        border-color: var(--primary-color);
+      }
+    }
+
+    #description-trademark-product,
+    #introduce-weight-product,
+    #introduce-color-product,
+    #introduce-size-product,
+    #img-description-product1,
+    #img-description-product2,
+    #img-description-product3,
+    #img-description-product4,
+    #img-description-product5,
+    #img-description-product6,
+    #size-product,
+    #color-product,
+    #img-product1,
+    #img-product2,
+    #img-product3,
+    #code-product,
+    #category-product,
+    #tag-product {
+      // width: 31.7%;
+      width: 80%;
+      margin-left: auto;
+      // margin-right: 44rem;
+      margin-right: 0;
+    }
+
+    .fa-plus,
+    .fa-trash-alt {
+      font-size: 3rem;
+      transition: all 0.3s;
+      cursor: pointer;
+      margin-left: auto;
+      position: absolute;
+      top: 1rem;
+
+      &:hover {
+        transform: scale(1.1);
+        color: var(--primary-color);
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+
+    .fa-plus {
+      right: 7rem;
+      margin-right: 0;
+    }
+
+    .fa-trash-alt {
+      right: 0;
+    }
+  }
+
+  .sale-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .admin-group + .admin-group {
+    margin-top: 4rem;
+  }
+}
+
+.btn {
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.introduce-color-product,
+.introduce-size-product,
+.tag-product,
+.code-product,
+.title-product ~ .title-product,
+.description-trademark-product ~ .description-trademark-product,
+.introduce-weight-product ~ .introduce-weight-product,
+.introduce-color-product ~ .introduce-color-product,
+.introduce-size-product ~ .introduce-size-product,
+.introduce-contact-info-product ~ .introduce-contact-info-product,
+.introduce-howtobuy-product ~ .introduce-howtobuy-product,
+.introduce-commitment-product ~ .introduce-commitment-product,
+.img-description-product ~ .img-description-product,
+.introduce-trademark-product ~ .introduce-trademark-product,
+.img-product ~ .img-product,
+.category-product ~ .category-product,
+.color-product ~ .color-product,
+.size-product ~ .size-product,
+.introduce-product ~ .introduce-product {
+  margin-top: 2rem;
+}
+
+.description-trademark-product,
+.introduce-weight-product,
+.introduce-color-product,
+.introduce-size-product,
+.introduce-contact-info-product,
+.introduce-howtobuy-product,
+.introduce-commitment-product,
+.img-description-product,
+.introduce-trademark-product,
+.img-product,
+#tag-product,
+#code-product,
+.category-product,
+.introduce-product,
+.color-product,
+.size-product {
+  display: block;
+}
+
+.img-description-product,
+.img-description-product,
+.img-product {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--border-input-color);
+  padding-top: 9px;
+  width: 80%;
+  margin-right: 0;
+}
+
+.ck.ck-editor {
+  width: 729px;
+  margin-left: auto;
+  height: 30rem;
+}
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar,
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners {
+  border: 2px solid var(--border-input-color);
+  border-bottom: none;
+}
+
+.ck.ck-editor__main > .ck-editor__editable {
+  height: 25rem;
+  transition: all 0.3s;
+
+  &:focus {
+    border: 2px solid var(--primary-color);
+    border-top: 1px solid var(--border-input-color);
+    padding: 0 2rem;
+  }
+
+  &:not(.ck-focused) {
+    border: 2px solid var(--border-input-color);
+    border-top: 1px solid var(--border-input-color);
+    padding: 0 2rem;
+  }
+}
+
+.img-product {
+  width: 100% !important;
+  margin-bottom: 30rem;
+}
+
+.edit-img,
+.edit-img1,
+.edit-img2,
+.edit-img3,
+.edit-img4,
+.edit-img5,
+.edit-img6,
+.edit-img7,
+.edit-img8,
+.edit-img9,
+.edit-img10 {
+  position: relative !important;
+  width: 100%;
+  display: block;
+
+  #img,
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5,
+  #img6,
+  #img7,
+  #img8,
+  #img9,
+  #img10 {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: 280.25px;
+    border: 0.5rem solid var(--primary-color);
+    opacity: 0.9;
+    height: 327.125px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  #img {
+    top: 0;
+  }
+
+  #img1 {
+    top: 0;
+  }
+
+  #img2 {
+    top: 35rem;
+  }
+
+  #img3 {
+    top: 70rem;
+  }
+
+  #img4 {
+    top: 105rem;
+  }
+
+  #img5 {
+    top: 140rem;
+  }
+
+  #img6 {
+    top: 175rem;
+  }
+
+  #img7 {
+    top: 210rem;
+  }
+
+  #img8 {
+    top: 245rem;
+  }
+
+  #img9 {
+    top: 280rem;
+  }
+
+  #img10 {
+    top: 315rem;
+  }
+}

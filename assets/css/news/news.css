@@ -1,0 +1,123 @@
+.save-information {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.save-information #save {
+  margin-right: 1rem;
+}
+.save-information label {
+  cursor: default;
+}
+
+.description {
+  margin-top: 2rem;
+}
+.description-introduce {
+  margin-bottom: 2rem;
+}
+.description-introduce + p {
+  cursor: text;
+  text-align: justify;
+}
+.description img {
+  margin: 0 auto;
+  display: block;
+  height: 365px;
+  width: 520px;
+}
+.description img + img {
+  margin-top: 2rem;
+}
+.description .social-media {
+  margin-top: 3rem;
+}
+
+.change-page {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 3rem 0;
+  margin: 3rem 0;
+  border-top: 1px solid var(--border-padding-color);
+  border-bottom: 1px solid var(--border-padding-color);
+  width: 100%;
+}
+.change-page .left,
+.change-page .right {
+  width: calc((864px / 2));
+  line-height: 1.6;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+.change-page .left > h2,
+.change-page .right > h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.change-page .left:hover,
+.change-page .right:hover {
+  color: var(--primary-color);
+}
+.change-page .left {
+  justify-content: flex-start;
+}
+.change-page .left i {
+  margin-right: 2rem;
+}
+.change-page .right {
+  justify-content: flex-end;
+}
+.change-page .right i {
+  margin-left: 2rem;
+}
+.change-page .right span {
+  position: relative;
+  right: 0;
+}
+
+.title-page__style {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.title-page__style:hover {
+  color: var(--primary-color);
+}
+
+.title-page__name {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  cursor: text;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+  padding-right: 3rem;
+  margin-top: 5rem;
+}
+
+.status {
+  font-size: 1.3rem;
+  cursor: text;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-padding-color);
+  width: 75%;
+  letter-spacing: 1px;
+}
+.status .time,
+.status .author {
+  transition: all 0.3s;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.description-introduce + p ~ p {
+  text-align: justify;
+}
+
+.row > a {
+  top: 18rem !important;
+}/*# sourceMappingURL=news.css.map */

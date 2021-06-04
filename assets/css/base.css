@@ -1,0 +1,359 @@
+:root {
+  --primary-color: #269dbd;
+  --text-color: #000000;
+  --white-color: #fff;
+  --logo-color: #ff7664;
+  --cost-color: #b2008d;
+  --error-color: #ff0000;
+  --modal-color: #373b3fa4;
+  --background-footer-color: #1c2632;
+  --care-btn-color: rgb(88, 195, 23);
+  --border-padding-color: rgba(0, 0, 0, 0.2);
+  --border-input-color: #767676;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+  background-color: var(--white-color);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.mr1r {
+  margin-right: 1rem;
+}
+
+.fa-clock,
+.fa-phone,
+.fa-search,
+.fa-shopping-cart {
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.fa-shopping-cart {
+  z-index: 99999999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8rem;
+}
+
+.col + .col {
+  margin-bottom: 3rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  display: table;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transition: all 0.2s;
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grab:active {
+  cursor: grabbing;
+}
+
+.show-border-top {
+  border-top: 0.5rem solid var(--primary-color);
+  border-radius: 2rem;
+}
+
+textarea#content,
+textarea#title {
+  font-size: 1.8rem !important;
+  display: block;
+  margin: 0 auto !important;
+  padding: 2rem 3rem;
+  outline: none;
+}
+
+form.review-form {
+  width: 1170px;
+}
+
+.description-introduce + p,
+p + p {
+  font-size: 1.7rem;
+  margin: 1rem 0 3rem;
+  line-height: 1.5;
+}
+
+.review-form > label {
+  font-style: italic;
+  font-size: 2rem !important;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.evaluate-heading {
+  font-style: italic !important;
+  font-weight: 700 !important;
+  font-size: 3rem !important;
+}
+
+.review-form-heading {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.ck > h2 {
+  line-height: 1.3;
+}
+
+.ck > p {
+  font-size: 1.7rem;
+  margin: 1rem 0 3rem;
+  line-height: 1.5;
+}
+
+.author-form,
+.time-form {
+  padding: 2rem;
+  border: 0.5rem solid var(--primary-color);
+  margin-top: 3rem;
+  height: 19rem;
+}
+
+.author-form {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+}
+
+.time-form {
+  position: absolute;
+  right: 0;
+  bottom: -4.6rem;
+}
+
+.author-news,
+.time-news {
+  height: 4.6rem;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.author-news > #author-name,
+.time-news > #time-news {
+  height: 4.6rem;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  right: 0;
+  position: absolute;
+  width: 87%;
+  padding: 0 2rem;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.author-news > #author-name:focus,
+.time-news > #time-news:focus {
+  border-color: var(--primary-color);
+}
+
+.fa-user-alt,
+.fa-user-clock {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+.footer-top__address a,
+.footer-top__phone a,
+.footer-top__email a {
+  color: var(--white-color);
+  transition: all 0.3s;
+}
+
+.footer-top__email a {
+  line-height: 1.4;
+}
+
+.footer-top__content > a {
+  font-weight: 400;
+}
+
+.footer-top__content p {
+  font-weight: 400;
+}
+
+.footer-top__email:hover > a,
+.footer-top__phone:hover > a,
+.footer-top__address:hover > a {
+  color: var(--primary-color);
+}
+
+.header_nav > .nav-link {
+  text-transform: uppercase;
+}
+
+.bgc {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+textarea:focus {
+  border-color: var(--primary-color);
+}
+
+.disabled,
+.disabled:active,
+.disabled:hover {
+  color: #999999 !important;
+  transform: scale(1) !important;
+  cursor: default !important;
+}
+
+.message-product .product-content .cost s + p {
+  margin-left: 1rem !important;
+}
+
+.product .product-a__img span.sale {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header-bottom_item-left,
+.header-bottom_item-right {
+  text-transform: uppercase;
+}
+
+.tag {
+  text-transform: capitalize;
+}
+
+.tag.meta,
+#tag-product {
+  text-transform: uppercase;
+}
+
+.category.meta,
+#category-product {
+  text-transform: capitalize;
+}
+
+.mr2r {
+  margin-right: 2rem;
+}
+
+.title-page > h2 a,
+.title-page > p > a,
+.title-page > a {
+  transition: all 0.3s;
+}
+
+.product-a__img {
+  height: 261px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  position: relative;
+}
+
+.product {
+  position: relative;
+}
+
+.sale {
+  width: 4.5rem;
+  height: 5rem;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 120000;
+  cursor: default;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  border-top-left-radius: 27%;
+}
+
+.sale:after {
+  content: "";
+  position: absolute;
+  border-width: 0 2.25rem 3rem;
+  border-style: solid;
+  border-color: var(--primary-color) var(--primary-color) transparent
+    var(--primary-color);
+  right: 0;
+  top: 5rem;
+  z-index: 3000;
+}
+
+.product__img {
+  width: 100%;
+}
+
+.see-more {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.information-customer-form
+  > .information-customer-form__heading
+  ~ .form-group
+  > #note {
+  margin-bottom: 3rem;
+}
+
+.information-customer-form > .information-customer-form__heading ~ input {
+  margin-top: 4rem !important;
+}

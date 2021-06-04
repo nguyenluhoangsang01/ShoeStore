@@ -1,0 +1,25 @@
+.row > a {
+  position: absolute;
+  right: 31rem;
+  font-size: 2.5rem;
+  top: 15rem;
+  transition: all 0.3s;
+  z-index: 99999999;
+}
+
+.row > a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.row > a:active {
+  transform: scale(0.9);
+}
+
+.row {
+  position: relative;
+}
+
+.title-page__name + h2 {
+  padding-top: 5rem;
+}

@@ -1,0 +1,471 @@
+.category-archives {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.category-archives span {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+.news {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.news p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  text-align: justify;
+  text-indent: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  cursor: text;
+}
+.news .status {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+  width: 100% !important;
+}
+.news .title-page__name {
+  font-size: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-right: 2rem;
+  transition: all 0.3s;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.news .title-page__style {
+  font-size: 1.5rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  margin-top: 3rem;
+  margin-right: 0;
+  margin-left: auto;
+}
+.btn i {
+  margin-left: 1rem;
+}
+
+.row + p + p {
+  height: 75px;
+}
+.row + p + p ~ p {
+  display: none;
+}
+
+.admin-news {
+  padding: 5rem 20rem;
+  border: 0.5rem solid var(--primary-color);
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.admin-news .input-wrap label {
+  margin-bottom: 3rem;
+  display: block;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.admin-news .input-wrap .ck.ck-label.ck-voice-label {
+  display: none;
+}
+.admin-news .input-wrap + .input-wrap {
+  margin-top: 4rem;
+}
+.admin-news .admin-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+  transition: all 0.3s;
+  cursor: text;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.admin-news .admin-heading:hover {
+  color: var(--primary-color);
+}
+.admin-news .input-text {
+  height: 5rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid var(--text-color);
+  transition: all 0.3s;
+  outline: none;
+  width: 100%;
+  padding: 0 3rem;
+}
+.admin-news .input-text:focus {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.ck.ck-editor {
+  width: 729px;
+  margin-left: auto;
+  height: 30rem;
+}
+
+.img-news {
+  width: 100% !important;
+  margin-bottom: 30rem;
+}
+
+.edit-img1,
+.edit-img2,
+.edit-img3,
+.edit-img4,
+.edit-img5,
+.edit-img6,
+.edit-img7,
+.edit-img8,
+.edit-img9,
+.edit-img10 {
+  position: relative !important;
+  width: 100%;
+  display: block;
+}
+.edit-img1 #img1,
+.edit-img1 #img2,
+.edit-img1 #img3,
+.edit-img1 #img4,
+.edit-img1 #img5,
+.edit-img1 #img6,
+.edit-img1 #img7,
+.edit-img1 #img8,
+.edit-img1 #img9,
+.edit-img1 #img10,
+.edit-img2 #img1,
+.edit-img2 #img2,
+.edit-img2 #img3,
+.edit-img2 #img4,
+.edit-img2 #img5,
+.edit-img2 #img6,
+.edit-img2 #img7,
+.edit-img2 #img8,
+.edit-img2 #img9,
+.edit-img2 #img10,
+.edit-img3 #img1,
+.edit-img3 #img2,
+.edit-img3 #img3,
+.edit-img3 #img4,
+.edit-img3 #img5,
+.edit-img3 #img6,
+.edit-img3 #img7,
+.edit-img3 #img8,
+.edit-img3 #img9,
+.edit-img3 #img10,
+.edit-img4 #img1,
+.edit-img4 #img2,
+.edit-img4 #img3,
+.edit-img4 #img4,
+.edit-img4 #img5,
+.edit-img4 #img6,
+.edit-img4 #img7,
+.edit-img4 #img8,
+.edit-img4 #img9,
+.edit-img4 #img10,
+.edit-img5 #img1,
+.edit-img5 #img2,
+.edit-img5 #img3,
+.edit-img5 #img4,
+.edit-img5 #img5,
+.edit-img5 #img6,
+.edit-img5 #img7,
+.edit-img5 #img8,
+.edit-img5 #img9,
+.edit-img5 #img10,
+.edit-img6 #img1,
+.edit-img6 #img2,
+.edit-img6 #img3,
+.edit-img6 #img4,
+.edit-img6 #img5,
+.edit-img6 #img6,
+.edit-img6 #img7,
+.edit-img6 #img8,
+.edit-img6 #img9,
+.edit-img6 #img10,
+.edit-img7 #img1,
+.edit-img7 #img2,
+.edit-img7 #img3,
+.edit-img7 #img4,
+.edit-img7 #img5,
+.edit-img7 #img6,
+.edit-img7 #img7,
+.edit-img7 #img8,
+.edit-img7 #img9,
+.edit-img7 #img10,
+.edit-img8 #img1,
+.edit-img8 #img2,
+.edit-img8 #img3,
+.edit-img8 #img4,
+.edit-img8 #img5,
+.edit-img8 #img6,
+.edit-img8 #img7,
+.edit-img8 #img8,
+.edit-img8 #img9,
+.edit-img8 #img10,
+.edit-img9 #img1,
+.edit-img9 #img2,
+.edit-img9 #img3,
+.edit-img9 #img4,
+.edit-img9 #img5,
+.edit-img9 #img6,
+.edit-img9 #img7,
+.edit-img9 #img8,
+.edit-img9 #img9,
+.edit-img9 #img10,
+.edit-img10 #img1,
+.edit-img10 #img2,
+.edit-img10 #img3,
+.edit-img10 #img4,
+.edit-img10 #img5,
+.edit-img10 #img6,
+.edit-img10 #img7,
+.edit-img10 #img8,
+.edit-img10 #img9,
+.edit-img10 #img10 {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  width: 280.25px;
+  border: 0.5rem solid var(--primary-color);
+  opacity: 0.9;
+  height: 327.125px;
+}
+.edit-img1 #img1:hover,
+.edit-img1 #img2:hover,
+.edit-img1 #img3:hover,
+.edit-img1 #img4:hover,
+.edit-img1 #img5:hover,
+.edit-img1 #img6:hover,
+.edit-img1 #img7:hover,
+.edit-img1 #img8:hover,
+.edit-img1 #img9:hover,
+.edit-img1 #img10:hover,
+.edit-img2 #img1:hover,
+.edit-img2 #img2:hover,
+.edit-img2 #img3:hover,
+.edit-img2 #img4:hover,
+.edit-img2 #img5:hover,
+.edit-img2 #img6:hover,
+.edit-img2 #img7:hover,
+.edit-img2 #img8:hover,
+.edit-img2 #img9:hover,
+.edit-img2 #img10:hover,
+.edit-img3 #img1:hover,
+.edit-img3 #img2:hover,
+.edit-img3 #img3:hover,
+.edit-img3 #img4:hover,
+.edit-img3 #img5:hover,
+.edit-img3 #img6:hover,
+.edit-img3 #img7:hover,
+.edit-img3 #img8:hover,
+.edit-img3 #img9:hover,
+.edit-img3 #img10:hover,
+.edit-img4 #img1:hover,
+.edit-img4 #img2:hover,
+.edit-img4 #img3:hover,
+.edit-img4 #img4:hover,
+.edit-img4 #img5:hover,
+.edit-img4 #img6:hover,
+.edit-img4 #img7:hover,
+.edit-img4 #img8:hover,
+.edit-img4 #img9:hover,
+.edit-img4 #img10:hover,
+.edit-img5 #img1:hover,
+.edit-img5 #img2:hover,
+.edit-img5 #img3:hover,
+.edit-img5 #img4:hover,
+.edit-img5 #img5:hover,
+.edit-img5 #img6:hover,
+.edit-img5 #img7:hover,
+.edit-img5 #img8:hover,
+.edit-img5 #img9:hover,
+.edit-img5 #img10:hover,
+.edit-img6 #img1:hover,
+.edit-img6 #img2:hover,
+.edit-img6 #img3:hover,
+.edit-img6 #img4:hover,
+.edit-img6 #img5:hover,
+.edit-img6 #img6:hover,
+.edit-img6 #img7:hover,
+.edit-img6 #img8:hover,
+.edit-img6 #img9:hover,
+.edit-img6 #img10:hover,
+.edit-img7 #img1:hover,
+.edit-img7 #img2:hover,
+.edit-img7 #img3:hover,
+.edit-img7 #img4:hover,
+.edit-img7 #img5:hover,
+.edit-img7 #img6:hover,
+.edit-img7 #img7:hover,
+.edit-img7 #img8:hover,
+.edit-img7 #img9:hover,
+.edit-img7 #img10:hover,
+.edit-img8 #img1:hover,
+.edit-img8 #img2:hover,
+.edit-img8 #img3:hover,
+.edit-img8 #img4:hover,
+.edit-img8 #img5:hover,
+.edit-img8 #img6:hover,
+.edit-img8 #img7:hover,
+.edit-img8 #img8:hover,
+.edit-img8 #img9:hover,
+.edit-img8 #img10:hover,
+.edit-img9 #img1:hover,
+.edit-img9 #img2:hover,
+.edit-img9 #img3:hover,
+.edit-img9 #img4:hover,
+.edit-img9 #img5:hover,
+.edit-img9 #img6:hover,
+.edit-img9 #img7:hover,
+.edit-img9 #img8:hover,
+.edit-img9 #img9:hover,
+.edit-img9 #img10:hover,
+.edit-img10 #img1:hover,
+.edit-img10 #img2:hover,
+.edit-img10 #img3:hover,
+.edit-img10 #img4:hover,
+.edit-img10 #img5:hover,
+.edit-img10 #img6:hover,
+.edit-img10 #img7:hover,
+.edit-img10 #img8:hover,
+.edit-img10 #img9:hover,
+.edit-img10 #img10:hover {
+  opacity: 1;
+}
+.edit-img1 #img1,
+.edit-img2 #img1,
+.edit-img3 #img1,
+.edit-img4 #img1,
+.edit-img5 #img1,
+.edit-img6 #img1,
+.edit-img7 #img1,
+.edit-img8 #img1,
+.edit-img9 #img1,
+.edit-img10 #img1 {
+  top: 0;
+}
+.edit-img1 #img2,
+.edit-img2 #img2,
+.edit-img3 #img2,
+.edit-img4 #img2,
+.edit-img5 #img2,
+.edit-img6 #img2,
+.edit-img7 #img2,
+.edit-img8 #img2,
+.edit-img9 #img2,
+.edit-img10 #img2 {
+  top: 35rem;
+}
+.edit-img1 #img3,
+.edit-img2 #img3,
+.edit-img3 #img3,
+.edit-img4 #img3,
+.edit-img5 #img3,
+.edit-img6 #img3,
+.edit-img7 #img3,
+.edit-img8 #img3,
+.edit-img9 #img3,
+.edit-img10 #img3 {
+  top: 70rem;
+}
+.edit-img1 #img4,
+.edit-img2 #img4,
+.edit-img3 #img4,
+.edit-img4 #img4,
+.edit-img5 #img4,
+.edit-img6 #img4,
+.edit-img7 #img4,
+.edit-img8 #img4,
+.edit-img9 #img4,
+.edit-img10 #img4 {
+  top: 105rem;
+}
+.edit-img1 #img5,
+.edit-img2 #img5,
+.edit-img3 #img5,
+.edit-img4 #img5,
+.edit-img5 #img5,
+.edit-img6 #img5,
+.edit-img7 #img5,
+.edit-img8 #img5,
+.edit-img9 #img5,
+.edit-img10 #img5 {
+  top: 140rem;
+}
+.edit-img1 #img6,
+.edit-img2 #img6,
+.edit-img3 #img6,
+.edit-img4 #img6,
+.edit-img5 #img6,
+.edit-img6 #img6,
+.edit-img7 #img6,
+.edit-img8 #img6,
+.edit-img9 #img6,
+.edit-img10 #img6 {
+  top: 175rem;
+}
+.edit-img1 #img7,
+.edit-img2 #img7,
+.edit-img3 #img7,
+.edit-img4 #img7,
+.edit-img5 #img7,
+.edit-img6 #img7,
+.edit-img7 #img7,
+.edit-img8 #img7,
+.edit-img9 #img7,
+.edit-img10 #img7 {
+  top: 210rem;
+}
+.edit-img1 #img8,
+.edit-img2 #img8,
+.edit-img3 #img8,
+.edit-img4 #img8,
+.edit-img5 #img8,
+.edit-img6 #img8,
+.edit-img7 #img8,
+.edit-img8 #img8,
+.edit-img9 #img8,
+.edit-img10 #img8 {
+  top: 245rem;
+}
+.edit-img1 #img9,
+.edit-img2 #img9,
+.edit-img3 #img9,
+.edit-img4 #img9,
+.edit-img5 #img9,
+.edit-img6 #img9,
+.edit-img7 #img9,
+.edit-img8 #img9,
+.edit-img9 #img9,
+.edit-img10 #img9 {
+  top: 280rem;
+}
+.edit-img1 #img10,
+.edit-img2 #img10,
+.edit-img3 #img10,
+.edit-img4 #img10,
+.edit-img5 #img10,
+.edit-img6 #img10,
+.edit-img7 #img10,
+.edit-img8 #img10,
+.edit-img9 #img10,
+.edit-img10 #img10 {
+  top: 315rem;
+}/*# sourceMappingURL=category-news.css.map */

@@ -1,0 +1,2 @@
+<?php
+$adminAccount = "admin1";

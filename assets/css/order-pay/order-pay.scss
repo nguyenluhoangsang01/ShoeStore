@@ -1,0 +1,153 @@
+.order-page {
+  margin-top: 2rem;
+}
+
+.information-customer-form {
+  &__heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    cursor: text;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+
+  .form-group {
+    label {
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+      display: block;
+      font-size: 1.8rem;
+    }
+    select,
+    input {
+      height: 5rem;
+      border: none;
+      border-bottom: 2px solid var(--text-color);
+      transition: all 0.3s;
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 0 2rem;
+
+      &:focus {
+        border-bottom: 2px solid var(--primary-color);
+      }
+    }
+
+    textarea {
+      width: 100%;
+      border: 2px solid var(--text-color);
+      transition: all 0.3s;
+      outline: none;
+      height: 25rem;
+      padding: 2rem;
+
+      &:focus {
+        border: 2px solid var(--primary-color);
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+.cart-wrapper {
+  margin-top: 5rem;
+}
+
+.slide-show-bottomOP {
+  margin-bottom: 10rem;
+}
+
+.theme-content_title {
+  text-transform: uppercase;
+  cursor: text;
+  line-height: 5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.news-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.product-container {
+  margin-top: 0 !important;
+  margin-bottom: 3rem;
+}
+
+.see-more {
+  position: initial !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-title ~ .news-content + p {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  border-top: 1px solid var(--text-color);
+  padding-top: 1rem;
+}
+
+.tac {
+  text-align: center;
+}
+
+.csrt {
+  cursor: text;
+}
+
+tr > td:first-child {
+  padding: 0;
+}
+
+td {
+  padding: 0 1rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+th {
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.4;
+  cursor: text;
+}
+
+.del {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    color: var(--primary-color);
+  }
+
+  &:active {
+    transform: scale(0.9);
+    color: var(--error-color);
+  }
+}
+
+.img-banner {
+  width: 100%;
+  height: 40rem;
+}
